@@ -1,0 +1,55 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f5f5d4;
+    }
+
+
+    h1 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+
+    .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      background-color: rgb(41, 52, 195);
+      color: white;
+      border: none;
+    }
+
+
+    .grid table {
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        object-fit: cover;
+    }
+
+    td {
+      width: 130px;
+      height: 130px;
+      font-size: 40px;
+      text-align: center;
+      vertical-align: middle;
+      border: 5px solid #333;
+      background-color: white;
+      cursor: pointer;
+      user-select: none;
+    }
+
+
+    td:hover {
+      background-color: #d1d8e7;
+    }
